@@ -131,30 +131,30 @@ let roster = [{firstName:"Zainib",
                 game: “Witcher 3"
                 superHero: "spider man"
                 fact: "I'm disappointed in GOT season 8"},
-                { firstName: "Hector"
-                lastName: "Flores"
-                color: "Blue"
-                animal: "Dog"
-                boook: "Captain Underpants"
-                movie: "Ace Ventura pet detective"
-                game: "Smash Brothers"
-                superhero: "Flash"
+                { firstName: "Hector",
+                lastName: "Flores",
+                color: "Blue",
+                animal: "Dog",
+                boook: "Captain Underpants",
+                movie: "Ace Ventura pet detective",
+                game: "Smash Brothers",
+                superhero: "Flash",
                 randomFact: "I am a Libra"},
-                { firstName: "Vanessa"
-                lastName: "Blacow-Berggen"
-                color: "pink"
-                animal:"cat"
-                book:"The Heartstriker series"
-                movie:"Ace Ventura pet detective"
-                game:"Smash Brothers"
-                superHero:"Spiderman"
+                { firstName: "Vanessa",
+                lastName: "Blacow-Berggen",
+                color: "pink",
+                animal:"cat",
+                book:"The Heartstriker series",
+                movie:"Ace Ventura pet detective",
+                game:"Smash Brothers",
+                superHero:"Spiderman",
                 randomFact:"I really like cats, especially my cat"},
-                {firstName:"Kevin"
-                lastName: "Sagara"
-                color:"yellow"
-                animal:"cat"
-                book:"sherlock holmes"
-                movie:"Shaun of the Dead"
-                game:"osu!"
-                superhero:"batman"
-                fact:"learning japanese"}];
+                {firstName:"Kevin",
+                lastName: "Sagara",
+                color:"yellow",
+                animal:"cat",
+                book:"sherlock holmes",
+                movie:"Shaun of the Dead",
+                game:"osu!",
+                superhero:"batman",
+                fact:"learning japanese",}];
