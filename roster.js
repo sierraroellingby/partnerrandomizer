@@ -176,3 +176,16 @@ let roster = [{
                 game:"osu!",
                 superhero:"batman",
                 fact:"learning japanese",}];
+
+
+function setUp(){
+  createCanvas(600, 6000);
+  background(200);
+
+console.log(roster[1]);
+}
+
+function draw(){
+
+  
+}
