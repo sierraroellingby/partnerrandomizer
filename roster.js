@@ -179,7 +179,7 @@ let roster = [{
 
 
 function setUp(){
-  createCanvas(600, 6000);
+  createCanvas(600, 600);
   background(200);
 
 console.log(roster[1]);
