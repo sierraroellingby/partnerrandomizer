@@ -182,7 +182,7 @@ function setup(){
   createCanvas(600, 600);
   background(200);
 
-console.log(roster[1]);
+console.log(random(roster).color));
 }
 
 function draw(){
