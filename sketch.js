@@ -177,15 +177,40 @@ let roster = [{
                 superhero:"batman",
                 fact:"learning japanese",}];
 
+let randomIndex;
 
 function setup(){
   createCanvas(600, 600);
   background(200);
+textSize(32);
 
+<<<<<<< HEAD
+text("click to randomize", 50, 50);
+=======
 console.log(random(roster).firstName));
+>>>>>>> 6710f790dae355f7a38fc09372070f14eae38278
 }
 
 function draw(){
 
 
+}
+
+function mousePressed() {
+
+if (roster[0]){
+
+  //this displays random name and splices it out of array
+
+background(random(200, 255));
+  randomIndex = int(random(roster.length));
+
+  text(roster[randomIndex].firstName, 50, 50);
+
+  roster.splice(randomIndex, 1);
+
+} else {
+  background(random(200, 255));
+  text("nothing left!", 50, 50);
+}
 }
