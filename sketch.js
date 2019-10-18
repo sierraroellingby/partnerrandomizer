@@ -177,7 +177,9 @@ let roster = [{
                 superhero:"batman",
                 fact:"learning japanese",}];
 
-
+                let randomIndex;
+                let animating = false;
+                
 function setup(){
   createCanvas(600, 600);
   background(200);
@@ -221,5 +223,3 @@ function draw(){
     setTimeout(randomizer, 2000);
 
   }
-
-}
