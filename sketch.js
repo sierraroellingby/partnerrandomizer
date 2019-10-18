@@ -185,9 +185,9 @@ function setup(){
   background(200);
 
 console.log(random(roster).firstName);
-}
 
 createButton("randomize");
+}
 
 function draw(){
   if(animating == true){
